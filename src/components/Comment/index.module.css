@@ -1,0 +1,17 @@
+/* padding:10px; */
+
+.container{
+  /* width: 100%; */
+  margin:10px;
+  box-sizing: border-box;
+
+  padding:10px 0;
+  border-bottom: 1px solid lightgray;
+  line-height: 1.5;
+list-style: none;
+
+}
+
+.container span{
+  margin-left: 10px;
+}

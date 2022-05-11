@@ -1,0 +1,13 @@
+.container{
+  width: 100%;
+  padding: 20px;
+}
+
+.container p{
+  float:left;
+  width: 20%;
+  border:1px solid lightgray;
+  padding:5px 15px;
+  margin:5px 10px;
+  text-align: center;
+}

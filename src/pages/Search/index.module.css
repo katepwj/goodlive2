@@ -1,0 +1,11 @@
+
+.container i{
+  margin-right: 10%;
+}
+.header{
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+

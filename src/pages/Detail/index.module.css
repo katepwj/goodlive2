@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  padding:10px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  /* background-color: lightgreen; */
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+
+.btn button{
+  border:solid 1.5px orangered;
+  background-color: transparent;
+  padding: 10px 30px;
+ width: 40%;
+}
+
+.descTop{
+  border:solid 2px lightgray;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 5px 30px;
+margin:20px 0px
+}
+
+
+.descBtm{
+  display: flex;
+align-items: flex-start;
+}
+.left{
+  width: 50%;
+  /* background-color: lightpink; */
+}
+.right{
+  width: 50%;
+}
+
+
+.btnBtm button{
+  width: 50%;
+  background-color: orangered;
+  border: lightgrey 1px solid;
+  padding:10px;
+  color:white;
+  border-radius: 5px;
+  
+}

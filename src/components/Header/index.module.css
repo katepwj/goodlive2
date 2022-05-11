@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+  /* display: flex;  */
+  padding:20px 0;
+  color:white;
+  background-color: orangered;
+  position:relative;
+  box-sizing: border-box;
+    /* align-items: center;
+  justify-content: space-around; */
+  /* padding:20px; */
+    /* text-align: center; */
+}
+
+.container i{
+  margin-left: 5%;
+}
+.container span{
+/* margin:auto; */
+text-align: center;
+position: absolute;
+left :47% ;
+/* top:50%; */
+font-weight: 600;
+}
