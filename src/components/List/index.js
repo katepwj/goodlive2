@@ -5,15 +5,15 @@ import {
 import styles from './index.module.css';
 
 function List(props) {
-  const { title, list } = props
-  console.log(list);
+  const { title, list,id } = props
+
   return (
     <div >
       <h2>{title}</h2>
       <ul className={styles.container}>
         {list.map((val, index) => {
           return (
-            <li>
+            <li key={val.id}>
               <Link to='./detail' style={{ textDecoration: "none" }}>
                 {/* <Link to={`./detail/${val.id}`}> */}
                 <img src={val.imgUrl} alt="img" />

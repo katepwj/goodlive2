@@ -13,7 +13,11 @@ function Home() {
 
   return (
     <div>
-      <div styles={{overflow: "scroll",position:"relative"}}>
+      <div 
+      // styles={{
+      //   overflow: "scroll",
+      //   position:"relative"}}
+        >
 
       <TopNav />
       <Carousel />
